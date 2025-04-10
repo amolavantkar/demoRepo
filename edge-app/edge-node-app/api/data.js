@@ -1,6 +1,6 @@
 operations = {"data": 
     [{"id": 1,
-    "issue_type": "Curbside",
+    "issue_type": "Curbside testEdited",
     "description": "parking lot",
     "time": "Apr 20, 03:00 PM",
     "ack":"No"},
