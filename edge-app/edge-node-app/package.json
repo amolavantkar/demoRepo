@@ -1,0 +1,35 @@
+{
+  "name": "github-redis-company-marketcap",
+  "version": "0.0.1",
+  "description": "Top 100 companies using marketcap",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "nodejs",
+    "example",
+    "github",
+    "leaderboard",
+    "marketcap",
+    "company",
+    "top"
+  ],
+  "author": "adrphlhome",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^1.9.0",
+    "apn": "^2.2.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "redis": "^3.0.2",
+    "socket.io": "^4.6.1",
+    "web-push": "^3.5.0"
+  }
+}
